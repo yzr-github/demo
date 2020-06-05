@@ -28,3 +28,7 @@ $sql='select * from users where id="'.$id.'"';
 $r=$db->get_results_records($sql);
 echo '欢迎您：',$r['name'],'<br>';
 // var_dump($r);
+
+
+//测试的第一次更新功能
+
